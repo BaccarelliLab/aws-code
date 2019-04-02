@@ -7,7 +7,7 @@ install.packages("aws.s3")
 library(aws.s3)
 
 # Set up your keys and your region here. N Virginia is US-East-1
-Sys.setenv("AWS_ACCESS_KEY_ID" = "your_key_id_here,
+Sys.setenv("AWS_ACCESS_KEY_ID" = "your_key_id_here",
            "AWS_SECRET_ACCESS_KEY" = "your_key_here",
            "AWS_DEFAULT_REGION" = "us-east-1")
 
